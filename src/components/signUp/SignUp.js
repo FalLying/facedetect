@@ -12,7 +12,7 @@ class SignUp extends React.Component {
     }
 
     onNameChange = (event) => {
-        this.setState({name: event.target.values})
+        this.setState({name: event.target.value})
     }
 
     onEmailChange = (event) => {
